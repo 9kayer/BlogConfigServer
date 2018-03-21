@@ -1,11 +1,5 @@
 root=/user
 
-spring:
-  profiles: cloud
-  cloud:
-    config:
-      uri: http://localhost:8887
-
 eureka:
   client:
     service-url:
