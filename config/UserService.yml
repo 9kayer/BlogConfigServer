@@ -1,7 +1,7 @@
 root: /user
 
 server:
-  port:10000
+  port: 10000
 
 eureka:
   client:
