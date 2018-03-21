@@ -1,9 +1,12 @@
-root:/category
+root: /category
+
+server:
+  port: 12000
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    hostname: ImTheCategoryService
-non-secure-port: 80
+    hostname: localhost
+    non-secure-port: 80
