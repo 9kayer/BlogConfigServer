@@ -1,9 +1,12 @@
-root=/user
+root: /user
+
+server:
+  port: 10000
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    hostname: ImTheUserService
+    hostname: localhost
     non-secure-port: 80
